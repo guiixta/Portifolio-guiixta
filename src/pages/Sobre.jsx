@@ -64,7 +64,7 @@ export default function SobreProjects(){
       }
 
       return (
-        <Link key={index} className="bg-gray-800 flex justify-center items-center text-center px-[5px] py-[3px] rounded-sm" to={botao.url}><i className={`text-white ${iconeBotao}`}></i></Link>
+        <Link key={index} className="bg-gray-800 flex justify-center items-center text-center px-[5px] py-[3px] rounded-sm hover:bg-gray-900" to={botao.url}><i className={`text-white ${iconeBotao}`}></i></Link>
       );
 
     })
@@ -99,10 +99,10 @@ export default function SobreProjects(){
                 <div className="Brand w-full px-[5rem] pt-[1rem] mt-[5rem] flex justify-start items-center">
                   <h1 className="text-2xl font-bold cursor-default">{Projeto.titulo}</h1>
                 </div>
-                <div className="px-[5rem] pt-[1rem] pb-[6rem]" ref={decricaoRef}/>
+                <div className="px-[4rem] pt-[0.5rem] pb-[5rem] lg:px-[5rem] lg:pt-[1rem] lg:pb-[6rem]" ref={decricaoRef}/>
                 <div className="w-full bg-gray-100 flex justify-between p-[4rem]">
                   <span className="font-bold cursor-default text-2xl">Ver Projeto</span>
-                  <div className="flex justify-start items-center">
+                  <div className="flex justify-start gap-1 items-center">
                     {Botoes()}
                   </div>
                 </div>
