@@ -40,6 +40,10 @@ function App() {
                 <Link className="bg-gray-800 flex justify-center items-center text-center px-[5px] py-[3px] rounded-sm hover:bg-gray-900" to="https://dash-efeitoestufa-seeg.vercel.app/"><i className="text-white bi bi-arrow-up-right-square-fill"></i></Link>
               </ItemProject>
               
+              <ItemProject titulo="Fiscal Cota Parlamentar" descricao="Dashboard para análise e monitoramento de gastos de deputados federais." link="/sobre?projeto=FiscalDash">
+                <Link className="bg-gray-800 flex justify-center items-center text-center px-[5px] py-[3px] rounded-sm hover:bg-gray-900" to="https://github.com/guiixta/fiscalCamara-Dashboard"><i className="text-white bi bi-github"></i></Link> 
+                <Link className="bg-gray-800 flex justify-center items-center text-center px-[5px] py-[3px] rounded-sm hover:bg-gray-900" to="https://fiscal-camara-dashboard.vercel.app/"><i className="text-white bi bi-arrow-up-right-square-fill"></i></Link>
+              </ItemProject>
             </div>
           </div>
         </Projects>

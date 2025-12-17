@@ -75,5 +75,33 @@ Dashboard interativo para a visualização de dados sobre a emissão de gases de
         {tipo: "external", url: "https://dash-efeitoestufa-seeg.vercel.app/"},
       {tipo: "github", url: "https://github.com/guiixta/dash-emissao-gas-seeg"}
     ]
+    }, 
+  "FiscalDash": {
+      titulo: "Análise de Despesas Parlamentares | Online",
+      descricao: `<p class="text-justify cursor-default">
+Dashboard analítico desenvolvido para monitorar e visualizar os gastos da Cota para o Exercício da Atividade Parlamentar (CEAP). O projeto transforma dados públicos complexos em visualizações intuitivas, permitindo fiscalização cidadã sobre o uso de recursos públicos.<br>
+
+-<span class="font-bold text-start ml-[5px]">Tecnologias:</span> Python, Dash, Plotly, Pandas.<br>
+-<span class="font-bold text-start ml-[5px]">Estilização:</span> Tailwind CSS (via CDN).<br>
+-<span class="font-bold text-start ml-[5px]">Dados:</span> Base dos Dados (Câmara dos Deputados).<br><br>
+
+<span class="font-bold text-3xl">Destaques Técnicos e Funcionalidades:</span><br>
+
+-<span class="font-bold text-start ml-[5px]">Alta Performance com Pandas:</span> Implementação de filtragem de dados direta em memória (backend), otimizando o processamento de grandes volumes de registros financeiros sem sobrecarregar o navegador do cliente.<br>
+-<span class="font-bold text-start ml-[5px]">Visualização Interativa:</span> Gráficos desenvolvidos com Plotly que permitem análise temporal (evolução de gastos), categórica (tipo de despesa) e rankings (top parlamentares e partidos).<br>
+-<span class="font-bold text-start ml-[5px]">Layout Responsivo e Moderno:</span> Interface construída com Tailwind CSS, garantindo adaptabilidade para dispositivos móveis e desktops, com KPIs dinâmicos que resumem os dados filtrados.<br>
+-<span class="font-bold text-start ml-[5px]">Deploy Serverless:</span> Configuração otimizada para deploy na Vercel, superando limitações de tamanho de payload através de arquitetura eficiente de callbacks.<br>
+</p>`,
+      imagens: [
+        "/assets/FiscalDash/Page1.png", 
+        "/assets/FiscalDash/Page2.png", 
+        "/assets/FiscalDash/Page3.png", 
+        "/assets/FiscalDash/Parte4.png", 
+        "/assets/FiscalDash/Page5.png"
+      ],
+      links: [
+        {tipo: "external", url: "https://fiscal-camara-dashboard.vercel.app/"}, // Substitua pelo link real se for diferente
+        {tipo: "github", url: "https://github.com/guiixta/fiscalCamara-Dashboard"}
+      ]
     }
   }
