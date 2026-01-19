@@ -46,6 +46,18 @@ function App() {
               </ItemProject>
             </div>
           </div>
+
+          <div className='bg-yellow-600 rounded-lg shadow p-3 w-full'>
+            <div className='w-full flex flex-col mb-3'>
+              <h1 className='m-0 font-bold text-2xl'>Power BI</h1>
+              <span className='p-[0.5px] bg-black w-full flex'></span>
+            </div>
+            <div className='flex flex-col gap-2'>
+              <ItemProject titulo="Painel de Gestão Orçamentária Municipal (SICONFI)" descricao="Dashboard interativo para visualização de emissões de gases de efeito estufa." link="/sobre?projeto=PainelSICONFI">
+                <Link className="bg-gray-800 flex justify-center items-center text-center px-[5px] py-[3px] rounded-sm hover:bg-gray-900" to="https://github.com/guiixta/Dashboard-de-Gestao-Orcamentaria-Municipal"><i className="text-white bi bi-github"></i></Link> 
+              </ItemProject>  
+            </div>
+          </div>
         </Projects>
         <Contact />
       </main>

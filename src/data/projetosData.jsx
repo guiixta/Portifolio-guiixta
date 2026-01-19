@@ -103,5 +103,32 @@ Dashboard analítico desenvolvido para monitorar e visualizar os gastos da Cota 
         {tipo: "external", url: "https://fiscal-camara-dashboard.vercel.app/"}, // Substitua pelo link real se for diferente
         {tipo: "github", url: "https://github.com/guiixta/fiscalCamara-Dashboard"}
       ]
-    }
-  }
+    },
+  "PainelSICONFI": {
+    titulo: "Gestão Orçamentária Municipal | SICONFI",
+    descricao: `<p class="text-justify cursor-default">
+Dashboard interativo de Business Intelligence desenvolvido para a análise detalhada da saúde financeira e execução orçamentária de municípios brasileiros. O projeto utiliza dados oficiais do Tesouro Nacional para oferecer transparência e facilitar a tomada de decisão baseada em dados públicos.<br>
+
+-<span class="font-bold text-start ml-[5px]">Tecnologias:</span> Power BI, Linguagem DAX, Power Query (M).<br>
+-<span class="font-bold text-start ml-[5px]">Fonte dos Dados:</span> SICONFI (Sistema de Informações Contábeis e Fiscais do Setor Público Brasileiro).<br><br>
+
+<span class="font-bold text-3xl">Destaques Técnicos e Funcionalidades:</span><br>
+
+-<span class="font-bold text-start ml-[5px]">Modelagem de Dados Avançada:</span> Estruturação de dados utilizando o modelo Star Schema, garantindo performance em consultas complexas e integridade das relações entre tabelas de dimensões e fatos.<br>
+-<span class="font-bold text-start ml-[5px]">Análise de Execução Orçamentária:</span> Implementação de KPIs dinâmicos para monitorar a Receita Orçada vs. Realizada e o ciclo completo da despesa (Empenho, Liquidação e Pagamento).<br>
+-<span class="font-bold text-start ml-[5px]">Inteligência de Dados com DAX:</span> Criação de medidas personalizadas para cálculos de variações percentuais, rankings de arrecadação e indicadores de responsabilidade fiscal.<br>
+-<span class="font-bold text-start ml-[5px]">Experiência de Navegação (UX):</span> Desenvolvimento de uma interface intuitiva com uso de tooltips customizados, navegação entre páginas e filtros sincronizados que permitem o detalhamento (drill-down) por órgão e categoria econômica.<br>
+-<span class="font-bold text-start ml-[5px]">Processo de ETL:</span> Tratamento e limpeza de dados complexos via Power Query, garantindo que informações contábeis brutas fossem transformadas em insights visuais claros e precisos.<br>
+</p>`,
+    imagens: [
+      "/assets/PainelSICONFI/imagem 1.png",
+      "/assets/PainelSICONFI/imagem 2.png",
+      "/assets/PainelSICONFI/imagem 3.png",
+      "/assets/PainelSICONFI/imagem 4.png"
+    ],
+    links: [
+      {tipo: "github", url: "https://github.com/guiixta/Dashboard-de-Gestao-Orcamentaria-Municipal"}
+    ]
+  }  
+  
+}
